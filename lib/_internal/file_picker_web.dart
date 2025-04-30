@@ -166,7 +166,7 @@ class FilePickerWeb extends FilePicker {
     uploadInput.addEventListener('cancel', cancelledEventListener.toJS);
 
     // Listen focus event for cancelled
-    window.addEventListener('focus', cancelledEventListener.toJS);
+    // window.addEventListener('focus', cancelledEventListener.toJS);
 
     //Add input element to the page body
     Node? firstChild = _target.firstChild;
